@@ -1,5 +1,4 @@
 const AWS = require("aws-sdk")
-//import { config, CodeCommit } from "aws-sdk"
 
 if (!AWS.config.region) {
     AWS.config.update({
